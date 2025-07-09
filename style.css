@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #ffd700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ffd700;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.auth-buttons .btn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(#111, #000);
+}
+
+.btn.playnow {
+  background: #ffd700;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.games {
+  padding: 40px 20px;
+  background: #111;
+}
+
+.game-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  width: 150px;
+  height: 100px;
+  background: #222;
+  border: 2px solid #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #666;
+}
