@@ -1,0 +1,30 @@
+/* crash.css */
+body {
+  background: #000;
+  color: #ffd700;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.crash-container {
+  padding: 50px;
+}
+
+.graph {
+  height: 200px;
+  background: #111;
+  border: 2px solid #ffd700;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.btn {
+  padding: 10px 30px;
+  background: #ffd700;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
